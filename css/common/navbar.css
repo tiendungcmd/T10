@@ -1,0 +1,34 @@
+﻿.navbar {
+    float: left;
+    width: 220px;
+    background-color: #ffffff;
+    border-right: 1px #e5e5e5 solid;
+    height: 100vh;
+}
+
+    .navbar .logo-site {
+        display:flex;
+        width: 100%;
+        height: 60px;
+        padding:24px 0 0 24px;
+    }
+
+        .logo-site .home-icon {
+            width: 109px;
+            height: 24px;
+            background-image: url('../../content/img/home.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .logo-site .logo-icon {
+            width: 284px;
+            height: 24px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url('../../content/img/tải xuống.jpg');
+        }
+
+    .navbar .navbar-content {
+        width: 100%;
+    }

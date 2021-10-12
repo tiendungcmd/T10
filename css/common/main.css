@@ -1,0 +1,25 @@
+﻿body{
+    font-family:ProductSans-Regular;
+    font-size:13px;
+    margin:0;
+}
+@font-face {
+    font-family: 'ProductSans-Regular';
+    src: url('/content/font/ProductSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ProductSans-Bold';
+    src: url('/content/font/ProductSans-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ProductSans-Italic';
+    src: url('/content/font/ProductSans-Italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ProductSans-Light';
+    src: url('/content/font/ProductSans-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ProductSans-Thin';
+    src: url('/content/font/ProductSans-Thin.ttf') format('truetype');
+}
