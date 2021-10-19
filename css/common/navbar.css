@@ -7,28 +7,32 @@
 }
 
     .navbar .logo-site {
-        display:flex;
+        display: flex;
         width: 100%;
         height: 60px;
-        padding:24px 0 0 24px;
     }
 
-        .logo-site .home-icon {
-            width: 109px;
-            height: 24px;
-            background-image: url('../../content/img/home.png');
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
-
-        .logo-site .logo-icon {
-            width: 284px;
-            height: 24px;
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-image: url('../../content/img/tải xuống.jpg');
-        }
-
-    .navbar .navbar-content {
-        width: 100%;
+    .navbar .logo-box {
+        display: flex;
+        padding: 24px 0 0 24px;
     }
+
+.logo-site .home-icon {
+    width: 109px;
+    height: 24px;
+    background-image: url('../../content/img/home.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo-site .logo-icon {
+    width: 284px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../content/img/tải xuống.jpg');
+}
+
+.navbar .navbar-content {
+    width: 100%;
+}
